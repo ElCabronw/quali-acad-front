@@ -3,7 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
 
 ## Development server
-
+Run `npm i` para baixar todos as dependencias do projeto.
+Run `npx json-server --watch formattedJson2223.json --port 3001` em src/app/data/mocks/ para rodar o servidor MOCK.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
