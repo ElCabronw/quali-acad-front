@@ -1,0 +1,12 @@
+
+<div [class.shifted]="sidebarVisible" >
+  <app-menubar (toggleSidebar)="toggleSidebar()"></app-menubar>
+</div>
+ <div class="layout">
+
+<app-navbar [sidebarVisible]="sidebarVisible" (sidebarClosed)="onSidebarClosed()"></app-navbar>
+  <div class="main-content" [class.shifted]="sidebarVisible">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

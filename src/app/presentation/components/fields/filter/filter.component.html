@@ -1,0 +1,76 @@
+<div class="grid filter-container" [ngClass]="{ 'display-none': hideFilters }" [formGroup]="formGroup">
+  <div *ngFor="let field of fields | notHidden" class="field col-12 sm:col-8 {{ getGridClass(field) }}">
+    <label
+      >{{ field.label }}
+      <i
+        *ngIf="field.tooltip"
+        class="fas fa-info-circle mt-1 pl-2 ch"
+        pTooltip="{{ field.tooltip }}"
+        tooltipPosition="bottom"
+      ></i
+    ></label>
+    <quali-acad-text-field
+      *ngIf="isTextFieldType(field)"
+      [control]="formGroup.get(field.name)"
+      [mask]="field.mask"
+      [label]="field.placeholder"
+      [isRequired]="field.required"
+      [numeric]="field.type === fieldTypes.NUMBER"
+    ></quali-acad-text-field>
+    <quali-acad-slider-field
+      *ngIf="field.type === fieldTypes.SLIDER"
+      [control]="formGroup.get(field.name)"
+      [label]="field.placeholder"
+      [disabled]="field.disabled"
+    ></quali-acad-slider-field>
+
+    <quali-acad-dropdown-field
+      *ngIf="[fieldTypes.DYNAMIC_DROPDOWN, fieldTypes.DROPDOWN].includes(field.type)"
+      [dynamicFilters]="field.filterTypes"
+      [disabled]="field.disabled"
+      [options]="field.options || []"
+      [service]="field.service"
+      [isRequired]="field.required"
+      [minLengthToService]="field.minLengthToService || 0"
+      [control]="formGroup.get(field.name)"
+      [paged]="false"
+      [dependencies]="getFieldDependencies(field)"
+      [initialLoad]="field.initiateValue"
+    ></quali-acad-dropdown-field>
+
+    <quali-acad-calendar-field
+      *ngIf="field.type === fieldTypes.DATE"
+      [control]="formGroup.get(field.name)"
+      [isRequired]="field.required"
+      [label]="field.placeholder || ''"
+      [disabled]="field.disabled"
+      [min]="field.dateMin"
+      [max]="field.dateMax"
+    ></quali-acad-calendar-field>
+    <div *ngIf="field.type === fieldTypes.DATE_RANGE" class="range-date-container">
+      <quali-acad-calendar-field
+        [control]="formGroup.get(field.name + '.startDate')"
+        [isRequired]="field.required"
+        [label]="field.placeholder || ''"
+        [disabled]="field.disabled"
+        [min]="field.dateMin"
+      ></quali-acad-calendar-field>
+      Até
+      <quali-acad-calendar-field
+        [control]="formGroup.get(field.name + '.endDate')"
+        [isRequired]="field.required"
+        [label]="field.placeholder || ''"
+        [disabled]="field.disabled"
+        [max]="field.dateMax"
+      ></quali-acad-calendar-field>
+    </div>
+
+  </div>
+  <div class="search-button sm:col-4">
+    <quali-acad-button
+      [label]="'Pesquisar'"
+      (click)="search()"
+      [disabled]="!formGroup.valid"
+    ></quali-acad-button>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta a altura da tela */
+}
+form {
+  width: 100%;
+  max-width: 400px; /* Largura máxima do formulário */
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os campos no centro do formulário */
+}

@@ -1,0 +1,602 @@
+[
+    {
+        "CódigoIES": "1351",
+        "Grupo": "UNISOCIESC",
+        "NomeIES": "CENTRO UNIVERSITÁRIO SOCIESC",
+        "UF": "SC",
+        "Município": "Joinville",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "14028",
+        "Grupo": "UNA",
+        "NomeIES": "Centro Universitário UNA de Betim",
+        "UF": "MG",
+        "Município": "Betim",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "1419",
+        "Grupo": "UNICURITIBA",
+        "NomeIES": "CENTRO UNIVERSITÁRIO CURITIBA",
+        "UF": "PR",
+        "Município": "Curitiba",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "15452",
+        "Grupo": "UNA",
+        "NomeIES": "CENTRO UNIVERSITÁRIO UNA DE BOM DESPACHO",
+        "UF": "MG",
+        "Município": "Bom Despacho",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "1598",
+        "Grupo": "UNA",
+        "NomeIES": "CENTRO UNIVERSITÁRIO UNA DE UBERLÂNDIA",
+        "UF": "MG",
+        "Município": "Uberlândia",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "1618",
+        "Grupo": "UNISOCIESC",
+        "NomeIES": "CENTRO UNIVERSITÁRIO SOCIESC DE BLUMENAU",
+        "UF": "SC",
+        "Município": "Blumenau",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "1640",
+        "Grupo": "AGES",
+        "NomeIES": "CENTRO UNIVERSITÁRIO AGES",
+        "UF": "BA",
+        "Município": "Paripiranga",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "1664",
+        "Grupo": "FASEH",
+        "NomeIES": "FACULDADE DA SAÚDE E ECOLOGIA HUMANA",
+        "UF": "MG",
+        "Município": "Vespasiano",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "1805",
+        "Grupo": "UNIFG-PE",
+        "NomeIES": "CENTRO UNIVERSITÁRIO DOS GUARARAPES",
+        "UF": "PE",
+        "Município": "Jaboatão dos Guararapes",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "18296",
+        "Grupo": "AGES",
+        "NomeIES": "Faculdade AGES de Tucano",
+        "UF": "BA",
+        "Município": "Tucano",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "18454",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade Una de Sete Lagoas",
+        "UF": "MG",
+        "Município": "Sete Lagoas",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "18708",
+        "Grupo": "AGES",
+        "NomeIES": "Faculdade AGES de Senhor do Bonfim",
+        "UF": "BA",
+        "Município": "Senhor do Bonfim",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "18735",
+        "Grupo": "AGES",
+        "NomeIES": "FACULDADE ONE LEARNING",
+        "UF": "SE",
+        "Município": "Lagarto",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "19257",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade UNA de Divinópolis",
+        "UF": "MG",
+        "Município": "Divinópolis",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "19408",
+        "Grupo": "AGES",
+        "NomeIES": "Faculdade AGES de Jacobina",
+        "UF": "BA",
+        "Município": "Jacobina",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "19865",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade Una de Pouso Alegre",
+        "UF": "MG",
+        "Município": "Pouso Alegre",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "2023",
+        "Grupo": "UNIFG-BA",
+        "NomeIES": "Centro Universitário FG",
+        "UF": "BA",
+        "Município": "Guanambi",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "203",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "UNIVERSIDADE SÃO JUDAS TADEU",
+        "UF": "SP",
+        "Município": "São Paulo",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "21931",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade Una de Jataí",
+        "UF": "GO",
+        "Município": "Jataí",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "22093",
+        "Grupo": "AGES",
+        "NomeIES": "Faculdade AGES de Medicina",
+        "UF": "BA",
+        "Município": "Jacobina",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "22736",
+        "Grupo": "UNISUL",
+        "NomeIES": "Faculdade UNISUL de Itajaí",
+        "UF": "SC",
+        "Município": "Itajaí",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "22758",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade Una de Itabira",
+        "UF": "MG",
+        "Município": "Itabira",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "22759",
+        "Grupo": "UNA",
+        "NomeIES": "Instituto Una de Itabira",
+        "UF": "MG",
+        "Município": "Itabira",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23095",
+        "Grupo": "UNISOCIESC",
+        "NomeIES": "Instituto SOCIESC de Jaraguá do Sul",
+        "UF": "SC",
+        "Município": "Jaraguá do Sul",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23163",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade de Educação Superior de Divinópolis",
+        "UF": "MG",
+        "Município": "Divinópolis",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23164",
+        "Grupo": "UNA",
+        "NomeIES": "Centro de Ensino Superior de Divinópolis",
+        "UF": "MG",
+        "Município": "Divinópolis",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23168",
+        "Grupo": "UNA",
+        "NomeIES": "Centro de Estudos Superiores de Jataí",
+        "UF": "GO",
+        "Município": "Jataí",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23169",
+        "Grupo": "UNA",
+        "NomeIES": "Escola Superior de Itabira",
+        "UF": "MG",
+        "Município": "Itabira",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23172",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade de Educação Superior de Pouso Alegre",
+        "UF": "MG",
+        "Município": "Pouso Alegre",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23175",
+        "Grupo": "UNA",
+        "NomeIES": "Escola Superior de Pouso Alegre",
+        "UF": "MG",
+        "Município": "Pouso Alegre",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23176",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade de Educação Superior de Sete Lagoas",
+        "UF": "MG",
+        "Município": "Sete Lagoas",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23177",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade de Educação Superior de Catalão",
+        "UF": "GO",
+        "Município": "Catalão",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23178",
+        "Grupo": "UNA",
+        "NomeIES": "Centro de Ensino Superior de Sete Lagoas",
+        "UF": "MG",
+        "Município": "Sete Lagoas",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23179",
+        "Grupo": "UNA",
+        "NomeIES": "Centro de Ensino Superior de Catalão",
+        "UF": "GO",
+        "Município": "Catalão",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23180",
+        "Grupo": "UNA",
+        "NomeIES": "Escola Superior de Catalão",
+        "UF": "GO",
+        "Município": "Catalão",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23197",
+        "Grupo": "UNISOCIESC",
+        "NomeIES": "Faculdade SOCIESC de Educação de Jaraguá do Sul",
+        "UF": "SC",
+        "Município": "Jaguará do Sul",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23200",
+        "Grupo": "UNISUL",
+        "NomeIES": "Faculdade UNISUL de Educação de Itajaí",
+        "UF": "SC",
+        "Município": "Itajaí",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23201",
+        "Grupo": "UNISUL",
+        "NomeIES": "Instituto de Educação Superior UNISUL de Itajaí",
+        "UF": "SC",
+        "Município": "Itajaí",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23202",
+        "Grupo": "SOCIESC",
+        "NomeIES": "Faculdade SOCIESC de Educação de São Bento do Sul",
+        "UF": "SC",
+        "Município": "São Bento do Sul",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23228",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "Faculdade São Judas de Guarulhos",
+        "UF": "SP",
+        "Município": "Guarulhos",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23235",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "Instituto Universitário São Judas de Guarulhos",
+        "UF": "SP",
+        "Município": "Guarulhos",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23236",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "Escola Superior São Judas de Guarulhos",
+        "UF": "SP",
+        "Município": "Guarulhos",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23241",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "Instituto Universitário São Judas de São Bernardo do Campo",
+        "UF": "SP",
+        "Município": "São Bernardo do Campo",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23242",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "Escola Superior São Judas de São Bernardo do Campo",
+        "UF": "SP",
+        "Município": "São Bernardo do Campo",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23244",
+        "Grupo": "UNA",
+        "NomeIES": "Instituto Universitário UNA de Conselheiro Lafaiete",
+        "UF": "MG",
+        "Município": "Conselheiro Lafaiete",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23245",
+        "Grupo": "UNA",
+        "NomeIES": "Escola Superior UNA de Conselheiro Lafaiete",
+        "UF": "MG",
+        "Município": "Conselheiro Lafaiete",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23252",
+        "Grupo": "UNA",
+        "NomeIES": "Escola Superior UNA de Itumbiara",
+        "UF": "GO",
+        "Município": "Itumbiara",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23261",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "Faculdade São Judas de São Bernardo do Campo",
+        "UF": "SP",
+        "Município": "São Bernardo do Campo",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23264",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade UNA de Conselheiro Lafaiete",
+        "UF": "MG",
+        "Município": "Conselheiro Lafaiete",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23273",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade UNA de Itumbiara",
+        "UF": "GO",
+        "Município": "Itumbiara",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23275",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade de Agronomia UNA de Conselheiro Lafaiete",
+        "UF": "MG",
+        "Município": "Conselheiro Lafaiete",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23278",
+        "Grupo": "UNA",
+        "NomeIES": "Faculdade de Agronomia UNA de Itumbiara",
+        "UF": "GO",
+        "Município": "Itumbiara",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "23358",
+        "Grupo": "SOCIESC",
+        "NomeIES": "Centro de Ensino Superior SOCIESC de Jaraguá do Sul",
+        "UF": "SC",
+        "Município": "Jaraguá do Sul",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "24443",
+        "Grupo": "AGES",
+        "NomeIES": "Faculdade AGES de Medicina de Irecê",
+        "UF": "BA",
+        "Município": "Irecê",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "25476",
+        "Grupo": "UNISUL",
+        "NomeIES": "Instituto do Sul de Santa Catarina",
+        "UF": "SC",
+        "Município": "Criciúma",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "25478",
+        "Grupo": "UNISUL",
+        "NomeIES": "Escola Superior do Sul de Santa Catarina",
+        "UF": "SC",
+        "Município": "Criciúma",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "2950",
+        "Grupo": "FADERGS",
+        "NomeIES": "Centro Universitário FADERGS",
+        "UF": "RS",
+        "Município": "Porto Alegre",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "3099",
+        "Grupo": "FPB",
+        "NomeIES": "FACULDADE INTERNACIONAL DA PARAÍBA",
+        "UF": "PB",
+        "Município": "João Pessoa",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "3319",
+        "Grupo": "UNA",
+        "NomeIES": "Instituto Universitário Una de Catalão",
+        "UF": "GO",
+        "Município": "Catalão",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "3437",
+        "Grupo": "UNISUL",
+        "NomeIES": "Faculdade UNISUL de Balneário Camboriú",
+        "UF": "SC",
+        "Município": "Balneário Camboriú",
+        "Coluna1": "unisociesc"
+    },
+    {
+        "CódigoIES": "344",
+        "Grupo": "UNA",
+        "NomeIES": "CENTRO UNIVERSITÁRIO UNA",
+        "UF": "MG",
+        "Município": "Belo Horizonte",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "349",
+        "Grupo": "UNI-BH",
+        "NomeIES": "CENTRO UNIVERSITÁRIO DE BELO HORIZONTE",
+        "UF": "MG",
+        "Município": "Belo Horizonte",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "3518",
+        "Grupo": "UNISOCIESC",
+        "NomeIES": "Faculdade SOCIESC de Jaraguá do Sul",
+        "UF": "SC",
+        "Município": "Jaraguá do Sul",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "3691",
+        "Grupo": "SOCIESC",
+        "NomeIES": "FACULDADE DE TECNOLOGIA TUPY DE SÃO BENTO DO SUL",
+        "UF": "SC",
+        "Município": "São Bento do Sul",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "3758",
+        "Grupo": "UNISUL",
+        "NomeIES": "Faculdade UNISUL de Florianópolis",
+        "UF": "SC",
+        "Município": "Florianópolis",
+        "Coluna1": "unisociesc"
+    },
+    {
+        "CódigoIES": "385",
+        "Grupo": "UNIFACS",
+        "NomeIES": "UNIVERSIDADE SALVADOR",
+        "UF": "BA",
+        "Município": "Salvador",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "4045",
+        "Grupo": "UNICURITIBA",
+        "NomeIES": "Centro Universitário UniCuritiba",
+        "UF": "PR",
+        "Município": "Curitiba",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "448",
+        "Grupo": "UNIRITTER",
+        "NomeIES": "CENTRO UNIVERSITÁRIO RITTER DOS REIS",
+        "UF": "RS",
+        "Município": "Porto Alegre",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "466",
+        "Grupo": "UAM",
+        "NomeIES": "UNIVERSIDADE ANHEMBI MORUMBI",
+        "UF": "SP",
+        "Município": "São Paulo",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "4766",
+        "Grupo": "UNA",
+        "NomeIES": "Centro Universitário UNA de Contagem",
+        "UF": "MG",
+        "Município": "Contagem",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "494",
+        "Grupo": "UNISUL",
+        "NomeIES": "UNIVERSIDADE DO SUL DE SANTA CATARINA",
+        "UF": "SC",
+        "Município": "Tubarão",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "502",
+        "Grupo": "SÃO JUDAS",
+        "NomeIES": "Centro Universitário São Judas Tadeu",
+        "UF": "SP",
+        "Município": "Santos",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "638",
+        "Grupo": "MILTON CAMPOS",
+        "NomeIES": "FACULDADE MILTON CAMPOS",
+        "UF": "MG",
+        "Município": "Nova Lima",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "712",
+        "Grupo": "IBMR",
+        "NomeIES": "CENTRO UNIVERSITÁRIO IBMR",
+        "UF": "RJ",
+        "Município": "Rio de Janeiro",
+        "Coluna1": ""
+    },
+    {
+        "CódigoIES": "718",
+        "Grupo": "UNP",
+        "NomeIES": "UNIVERSIDADE POTIGUAR",
+        "UF": "RN",
+        "Município": "Natal",
+        "Coluna1": ""
+    }
+]

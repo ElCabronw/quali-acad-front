@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.toggle-button {
+  z-index: 1000; /* Ensure the button is above other elements */
+}
+
+.content {
+  flex: 1;
+  padding: 20px; /* Adjust padding as needed */
+  transition: margin-left 0.3s; /* Smooth transition */
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 250px; /* Space for the sidebar */
+  }
+}

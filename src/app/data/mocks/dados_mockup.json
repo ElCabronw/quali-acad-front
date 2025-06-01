@@ -1,0 +1,707 @@
+[
+    {
+        "nome_curso": "Engenharia de Software",
+        "ies": "Universidade AnimaTech",
+        "tipo_ies": "Anima",
+        "titulacao": "Bacharelado",
+        "campus": "Principal",
+        "duracao": "5 anos",
+        "endereco": "Rua da Inovação, 123 - Centro",
+        "site": "https://www.animatech.edu.br/engsoft",
+        "telefone": "(11) 5555-1234",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "media_regiao": {
+            "2022": {
+                "estado": 4.5,
+                "nacional": 4.3
+            },
+            "2023": {
+                "estado": 4.7,
+                "nacional": 4.6
+            }
+        },
+        "media_tipo_ies": {
+            "2022": {
+                "Privada": 4.2,
+                "Anima": 4.5,
+                "Pública": 4.8
+            },
+            "2023": {
+                "Privada": 4.4,
+                "Anima": 4.7,
+                "Pública": 4.9
+            }
+        },
+        "media_modalidade": {
+            "2022": {
+                "ead": 4.0,
+                "presencial": 4.6,
+                "todos": 4.4
+            },
+            "2023": {
+                "ead": 4.2,
+                "presencial": 4.8,
+                "todos": 4.6
+            }
+        },
+        "avaliacoes": {
+            "2022": 4.6,
+            "2023": 4.8
+        },
+        "nota_outras_ies": {
+            "melhores_notas": [
+                [
+                    "Universidade da Tecnologia Avançada",
+                    5
+                ],
+                [
+                    "Instituto Federal de Engenharia",
+                    4
+                ]
+            ],
+            "piores_notas": [
+                [
+                    "Faculdade de Computação Online",
+                    2
+                ],
+                [
+                    "Centro de Estudos Técnicos",
+                    0
+                ]
+            ]
+        },
+        "histo_anima": {
+            "2022": {
+                "presencial": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 25,
+                    "3": 35,
+                    "4": 20,
+                    "5": 5
+                },
+                "ead": {
+                    "0": 10,
+                    "1": 20,
+                    "2": 30,
+                    "3": 25,
+                    "4": 10,
+                    "5": 5
+                },
+                "todos": {
+                    "0": 7,
+                    "1": 15,
+                    "2": 28,
+                    "3": 30,
+                    "4": 18,
+                    "5": 2
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 3,
+                    "1": 7,
+                    "2": 20,
+                    "3": 40,
+                    "4": 25,
+                    "5": 5
+                },
+                "ead": {
+                    "0": 8,
+                    "1": 15,
+                    "2": 25,
+                    "3": 30,
+                    "4": 18,
+                    "5": 4
+                },
+                "todos": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 22,
+                    "3": 35,
+                    "4": 23,
+                    "5": 5
+                }
+            }
+        },
+        "histo_privadas": {
+            "2022": {
+                "presencial": {
+                    "0": 8,
+                    "1": 15,
+                    "2": 30,
+                    "3": 30,
+                    "4": 15,
+                    "5": 2
+                },
+                "ead": {
+                    "0": 12,
+                    "1": 25,
+                    "2": 35,
+                    "3": 20,
+                    "4": 7,
+                    "5": 1
+                },
+                "todos": {
+                    "0": 10,
+                    "1": 20,
+                    "2": 32,
+                    "3": 25,
+                    "4": 10,
+                    "5": 3
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 25,
+                    "3": 35,
+                    "4": 20,
+                    "5": 5
+                },
+                "ead": {
+                    "0": 10,
+                    "1": 20,
+                    "2": 30,
+                    "3": 25,
+                    "4": 10,
+                    "5": 5
+                },
+                "todos": {
+                    "0": 7,
+                    "1": 15,
+                    "2": 28,
+                    "3": 30,
+                    "4": 18,
+                    "5": 2
+                }
+            }
+        },
+        "histo_publicas": {
+            "2022": {
+                "presencial": {
+                    "0": 2,
+                    "1": 5,
+                    "2": 15,
+                    "3": 30,
+                    "4": 35,
+                    "5": 13
+                },
+                "ead": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 20,
+                    "3": 30,
+                    "4": 25,
+                    "5": 10
+                },
+                "todos": {
+                    "0": 3,
+                    "1": 7,
+                    "2": 18,
+                    "3": 30,
+                    "4": 30,
+                    "5": 12
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 1,
+                    "1": 3,
+                    "2": 10,
+                    "3": 25,
+                    "4": 40,
+                    "5": 21
+                },
+                "ead": {
+                    "0": 3,
+                    "1": 7,
+                    "2": 15,
+                    "3": 30,
+                    "4": 30,
+                    "5": 15
+                },
+                "todos": {
+                    "0": 2,
+                    "1": 5,
+                    "2": 12,
+                    "3": 27,
+                    "4": 35,
+                    "5": 19
+                }
+            }
+        }
+    },
+    {
+        "nome_curso": "Administração",
+        "ies": "Faculdade de Negócios Essencial",
+        "tipo_ies": "Privada",
+        "titulacao": "Bacharelado",
+        "campus": "Unidade Central",
+        "duracao": "4 anos",
+        "endereco": "Avenida dos Empreendedores, 456 - Bairro Novo",
+        "site": "https://www.fne.edu.br/adm",
+        "telefone": "(21) 9876-5432",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "media_regiao": {
+            "2022": {
+                "estado": 3.8,
+                "nacional": 3.7
+            },
+            "2023": {
+                "estado": 4.0,
+                "nacional": 3.9
+            }
+        },
+        "media_tipo_ies": {
+            "2022": {
+                "Privada": 3.8,
+                "Anima": 4.0,
+                "Pública": 4.2
+            },
+            "2023": {
+                "Privada": 4.0,
+                "Anima": 4.1,
+                "Pública": 4.3
+            }
+        },
+        "media_modalidade": {
+            "2022": {
+                "ead": 3.5,
+                "presencial": 3.9,
+                "todos": 3.7
+            },
+            "2023": {
+                "ead": 3.7,
+                "presencial": 4.1,
+                "todos": 3.9
+            }
+        },
+        "avaliacoes": {
+            "2022": 3.9,
+            "2023": 4.1
+        },
+        "nota_outras_ies": {
+            "melhores_notas": [
+                [
+                    "Escola Superior de Negócios",
+                    5
+                ],
+                [
+                    "Universidade Global de Gestão",
+                    4
+                ]
+            ],
+            "piores_notas": [
+                [
+                    "Faculdade de Comércio",
+                    1
+                ],
+                [
+                    "Centro de Estudos Administrativos",
+                    0
+                ]
+            ]
+        },
+        "histo_anima": {
+            "2022": {
+                "presencial": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 20,
+                    "3": 40,
+                    "4": 20,
+                    "5": 5
+                },
+                "ead": {
+                    "0": 10,
+                    "1": 15,
+                    "2": 25,
+                    "3": 30,
+                    "4": 15,
+                    "5": 5
+                },
+                "todos": {
+                    "0": 7,
+                    "1": 12,
+                    "2": 22,
+                    "3": 35,
+                    "4": 18,
+                    "5": 6
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 3,
+                    "1": 8,
+                    "2": 18,
+                    "3": 42,
+                    "4": 24,
+                    "5": 5
+                },
+                "ead": {
+                    "0": 8,
+                    "1": 12,
+                    "2": 22,
+                    "3": 35,
+                    "4": 18,
+                    "5": 5
+                },
+                "todos": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 20,
+                    "3": 38,
+                    "4": 21,
+                    "5": 6
+                }
+            }
+        },
+        "histo_privadas": {
+            "2022": {
+                "presencial": {
+                    "0": 7,
+                    "1": 12,
+                    "2": 25,
+                    "3": 35,
+                    "4": 18,
+                    "5": 3
+                },
+                "ead": {
+                    "0": 15,
+                    "1": 20,
+                    "2": 30,
+                    "3": 25,
+                    "4": 8,
+                    "5": 2
+                },
+                "todos": {
+                    "0": 10,
+                    "1": 16,
+                    "2": 28,
+                    "3": 30,
+                    "4": 13,
+                    "5": 3
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 20,
+                    "3": 40,
+                    "4": 20,
+                    "5": 5
+                },
+                "ead": {
+                    "0": 10,
+                    "1": 15,
+                    "2": 25,
+                    "3": 30,
+                    "4": 15,
+                    "5": 5
+                },
+                "todos": {
+                    "0": 7,
+                    "1": 12,
+                    "2": 22,
+                    "3": 35,
+                    "4": 18,
+                    "5": 6
+                }
+            }
+        },
+        "histo_publicas": {
+            "2022": {
+                "presencial": {
+                    "0": 2,
+                    "1": 5,
+                    "2": 15,
+                    "3": 30,
+                    "4": 35,
+                    "5": 13
+                },
+                "ead": {
+                    "0": 5,
+                    "1": 10,
+                    "2": 20,
+                    "3": 30,
+                    "4": 25,
+                    "5": 10
+                },
+                "todos": {
+                    "0": 3,
+                    "1": 7,
+                    "2": 18,
+                    "3": 30,
+                    "4": 30,
+                    "5": 12
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 1,
+                    "1": 3,
+                    "2": 10,
+                    "3": 25,
+                    "4": 40,
+                    "5": 21
+                },
+                "ead": {
+                    "0": 3,
+                    "1": 7,
+                    "2": 15,
+                    "3": 30,
+                    "4": 30,
+                    "5": 15
+                },
+                "todos": {
+                    "0": 2,
+                    "1": 5,
+                    "2": 12,
+                    "3": 27,
+                    "4": 35,
+                    "5": 19
+                }
+            }
+        }
+    },
+    {
+        "nome_curso": "Medicina",
+        "ies": "Universidade Federal do Saber",
+        "tipo_ies": "Pública",
+        "titulacao": "Bacharelado",
+        "campus": "Campus Saúde",
+        "duracao": "6 anos",
+        "endereco": "Praça da Ciência, 789 - Cidade Universitária",
+        "site": "https://www.ufsaber.edu.br/medicina",
+        "telefone": "(31) 2345-6789",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "media_regiao": {
+            "2022": {
+                "estado": 4.9,
+                "nacional": 4.8
+            },
+            "2023": {
+                "estado": 4.9,
+                "nacional": 4.9
+            }
+        },
+        "media_tipo_ies": {
+            "2022": {
+                "Privada": 4.7,
+                "Anima": 4.6,
+                "Pública": 4.9
+            },
+            "2023": {
+                "Privada": 4.8,
+                "Anima": 4.7,
+                "Pública": 5.0
+            }
+        },
+        "media_modalidade": {
+            "2022": {
+                "ead": null,
+                "presencial": 4.9,
+                "todos": 4.9
+            },
+            "2023": {
+                "ead": null,
+                "presencial": 5.0,
+                "todos": 4.9
+            }
+        },
+        "avaliacoes": {
+            "2022": 4.9,
+            "2023": 5.0
+        },
+        "nota_outras_ies": {
+            "melhores_notas": [
+                [
+                    "Universidade Estadual de Saúde",
+                    5
+                ],
+                [
+                    "Faculdade de Ciências Médicas Excelência",
+                    5
+                ]
+            ],
+            "piores_notas": [
+                [
+                    "Faculdade de Medicina do Interior",
+                    3
+                ],
+                [
+                    "Centro de Formação Médica",
+                    2
+                ]
+            ]
+        },
+        "histo_anima": {
+            "2022": {
+                "presencial": {
+                    "0": 1,
+                    "1": 2,
+                    "2": 10,
+                    "3": 25,
+                    "4": 37,
+                    "5": 25
+                },
+                "ead": {
+                    "0": 5,
+                    "1": 15,
+                    "2": 25,
+                    "3": 30,
+                    "4": 20,
+                    "5": 5
+                },
+                "todos": {
+                    "0": 3,
+                    "1": 8,
+                    "2": 17,
+                    "3": 28,
+                    "4": 28,
+                    "5": 16
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 0,
+                    "1": 1,
+                    "2": 8,
+                    "3": 22,
+                    "4": 40,
+                    "5": 29
+                },
+                "ead": {
+                    "0": 3,
+                    "1": 10,
+                    "2": 20,
+                    "3": 28,
+                    "4": 25,
+                    "5": 14
+                },
+                "todos": {
+                    "0": 1,
+                    "1": 5,
+                    "2": 14,
+                    "3": 25,
+                    "4": 32,
+                    "5": 23
+                }
+            }
+        },
+        "histo_privadas": {
+            "2022": {
+                "presencial": {
+                    "0": 1,
+                    "1": 3,
+                    "2": 12,
+                    "3": 28,
+                    "4": 35,
+                    "5": 21
+                },
+                "ead": {
+                    "0": 8,
+                    "1": 18,
+                    "2": 28,
+                    "3": 25,
+                    "4": 15,
+                    "5": 6
+                },
+                "todos": {
+                    "0": 4,
+                    "1": 10,
+                    "2": 20,
+                    "3": 26,
+                    "4": 25,
+                    "5": 15
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 1,
+                    "1": 2,
+                    "2": 10,
+                    "3": 25,
+                    "4": 37,
+                    "5": 25
+                },
+                "ead": {
+                    "0": 6,
+                    "1": 15,
+                    "2": 25,
+                    "3": 30,
+                    "4": 18,
+                    "5": 6
+                },
+                "todos": {
+                    "0": 3,
+                    "1": 8,
+                    "2": 17,
+                    "3": 28,
+                    "4": 27,
+                    "5": 17
+                }
+            }
+        },
+        "histo_publicas": {
+            "2022": {
+                "presencial": {
+                    "0": 0,
+                    "1": 1,
+                    "2": 5,
+                    "3": 20,
+                    "4": 40,
+                    "5": 34
+                },
+                "ead": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0
+                },
+                "todos": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0
+                }
+            },
+            "2023": {
+                "presencial": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 3,
+                    "3": 15,
+                    "4": 45,
+                    "5": 37
+                },
+                "ead": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0
+                },
+                "todos": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0
+                }
+            }
+        }
+    }
+]

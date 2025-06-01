@@ -1,0 +1,23 @@
+<div class="form-container flex justify-content-center align-items-center">
+  <form (ngSubmit)="onSubmit()" [formGroup]="loginForm" class="p-fluid">
+    <p-panel header="Login">
+      <div class="grid justify-content-center">
+        <div class="col-12 flex justify-content-center">
+          <p-floatLabel>
+            <input pInputText type="text" formControlName="email" class="form-control" name="login">
+            <label>Login</label>
+          </p-floatLabel>
+        </div>
+        <div class="col-12 flex justify-content-center">
+          <p-floatLabel>
+            <input pInputText type="password" formControlName="password" class="form-control" name="password">
+            <label>Password</label>
+          </p-floatLabel>
+        </div>
+        <div class="col-12 flex justify-content-center">
+          <button pButton type="submit" label="Submit" [disabled]="!loginForm.valid"></button>
+        </div>
+      </div>
+    </p-panel>
+  </form>
+</div>

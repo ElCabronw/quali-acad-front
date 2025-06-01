@@ -1,0 +1,73 @@
+<div class="relative">
+  <div class="input-container">
+    <div class="input-inner-container" *ngIf="!isNgContent">
+      <p-dropdown
+        *ngIf="dynamicFilters"
+        appendTo="body"
+        optionLabel="name"
+        optionValue="code"
+        [(ngModel)]="selectedDynamicFilter"
+        [options]="dynamicFilters"
+        [disabled]="disabled"
+        [inputId]="inputId"
+      >
+      </p-dropdown>
+      <p-autoComplete
+        appendTo="body"
+        field="name"
+        [forceSelection]="forceSelection"
+        [dropdown]="true"
+        [formControl]="control"
+        [placeholder]="placeholder"
+        [suggestions]="pagedSuggestions"
+        [dropdownIcon]="dynamicFilters ? 'pi pi-search' : 'pi pi-chevron-down'"
+        [delay]="800"
+        (completeMethod)="search($event)"
+        (onShow)="onOpenAutocompletePanel()"
+        (onHide)="onHideAutocompletePanel()"
+        (onFocus)="onFocus.emit($event)"
+        (onChange)="onChange.emit($event)"
+        [disabled]="disabled"
+        [inputId]="inputId"
+      >
+      </p-autoComplete>
+    </div>
+
+    <div class="input-inner-container" *ngIf="isNgContent">
+      <p-autoComplete
+        appendTo="body"
+        field="name"
+        [forceSelection]="forceSelection"
+        [dropdown]="true"
+        [formControl]="control"
+        [placeholder]="placeholder"
+        [suggestions]="pagedSuggestions"
+        [dropdownIcon]="dynamicFilters ? 'pi pi-search' : 'pi pi-chevron-down'"
+        [delay]="800"
+        (completeMethod)="search($event)"
+        (onShow)="onOpenAutocompletePanel()"
+        (onHide)="onHideAutocompletePanel()"
+        (onFocus)="onFocus.emit($event)"
+        (onChange)="onChange.emit($event)"
+        [disabled]="disabled"
+        [inputId]="inputId"
+      >
+        <ng-template let-option pTemplate="item">
+          <div class="option-content">
+            <span class="option-label">{{ option.name }}</span>
+            <br />
+            <span class="option-sublabel">{{ option.code }}</span>
+          </div>
+        </ng-template>
+      </p-autoComplete>
+    </div>
+
+    <quali-acad-button
+      *ngIf="buttonAction"
+      [label]="buttonAction.label"
+      [disabled]="disabled"
+      (onClick)="buttonAction.onClick(control.value)"
+    ></quali-acad-button>
+  </div>
+  <quali-acad-field-error-message *ngIf="!hiddenErrorMessage" [control]="control"></quali-acad-field-error-message>
+</div>

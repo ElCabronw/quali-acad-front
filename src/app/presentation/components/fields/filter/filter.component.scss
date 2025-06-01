@@ -1,0 +1,28 @@
+.filter-container {
+  align-items: center;
+
+  .field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-button {
+    flex: 1;
+    padding-right: 7px;
+    display: flex;
+    justify-content: flex-end;
+    @media (min-width: 768px) {
+      padding-top: 36px;
+    }
+  }
+
+  .range-date-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.display-none {
+  display: none !important;
+}

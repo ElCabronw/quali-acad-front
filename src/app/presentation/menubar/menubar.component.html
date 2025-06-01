@@ -1,0 +1,13 @@
+<p-menubar>
+  <ng-template pTemplate="start">
+    <button pButton type="button" class="p-element p-ripple p-button-rounded p-button-help p-button-text p-button p-component p-button-icon-only" [icon]=" sidebarVisible ? 'pi pi-times' : 'pi pi-bars'"  (click)="onToggleSidebar()"></button>
+  </ng-template>
+  <ng-template pTemplate="end">
+    <p-toast />
+    <p-menu #menu [model]="items" [popup]="true" />
+    <!-- <p-button (onClick)="menu.toggle($event)" icon="pi pi-cog"/> -->
+    <button pButton type="button" class="p-element p-ripple p-button-rounded p-button-help p-button-text p-button p-component p-button-icon-only" icon="pi pi-cog" (click)="menu.toggle($event)"></button>
+  </ng-template>
+
+
+</p-menubar>

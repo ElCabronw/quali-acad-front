@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "primeng/resources/themes/lara-light-blue/theme.css";
+// @import "primeng/resources/themes/viva-light/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+// @import "primeng/resources/themes/saga-blue/theme.css"; /* Example theme */
+
+:root {
+  --font-family: 'Roboto', sans-serif;
+  // --mask-bg: #7C2281;
+  // --text-color: #333;
+  // --surface-section: #f5f5f5;
+  // --surface-hover: #e0f7fa;
+}
+.light-dark {
+  background-color: #1e1e1e !important;//var(--purple-900) !important;
+}
+

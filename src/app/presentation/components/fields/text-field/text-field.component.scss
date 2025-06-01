@@ -1,0 +1,36 @@
+.input-container {
+  width: 100%;
+  display: block !important;
+  .password-field {
+    -webkit-text-security: disc;
+  }
+
+  .input-error {
+    font-size: 0.7em;
+    color: var(--error-color);
+    position: absolute;
+    width: max-content;
+  }
+
+  .show-password-icon {
+    font-size: 1.4em;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .text-centered {
+    text-align: center;
+  }
+
+  .left-label {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 13px;
+    background-color: var(--gray-light);
+    color: var(--theme-primary);
+  }
+}

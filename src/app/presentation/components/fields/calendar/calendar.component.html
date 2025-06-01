@@ -1,0 +1,23 @@
+<div class="relative">
+  <div class="input-container">
+    <p-calendar
+      appendTo="body"
+      icon="fas fa-calendar-day"
+      (onClose)="onHideCalendar()"
+      (onShow)="onShowCalendar()"
+      [defaultDate]="defaultDate"
+      [disabled]="disabled"
+      [disabledDates]="disabledDates"
+      [formControl]="control"
+      [maxDate]="max"
+      [minDate]="min"
+      [readonlyInput]="false"
+      [showIcon]="true"
+      [showOnFocus]="showCalendarOnFocus"
+      [showSeconds]="showSeconds"
+      [showTime]="showTime"
+      [stepMinute]="stepMinute"
+    ></p-calendar>
+  </div>
+  <quali-acad-field-error-message *ngIf="!hiddenErrorMessage" [control]="control"></quali-acad-field-error-message>
+</div>

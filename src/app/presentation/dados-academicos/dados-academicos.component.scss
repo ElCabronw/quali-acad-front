@@ -1,0 +1,74 @@
+.text-nowrap {
+  white-space: nowrap; /* Impede a quebra de linha */
+  overflow: hidden;    /* Oculta o texto que não cabe */
+  text-overflow: ellipsis; /* Adiciona reticências (...) para texto truncado */
+}
+.actions-menu-button {
+  font-size: 23px;
+  cursor: pointer;
+  color: var(--theme-medium);
+}
+
+.accordion-header-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &.buttons {
+    justify-content: flex-end;
+  }
+
+  .group-header-actions {
+    display: flex;
+    align-items: center;
+
+    .group-header-action {
+      width: 40px;
+      margin: 5px;
+    }
+  }
+}
+.table-button {
+  cursor: pointer;
+  color: var(--theme-primary);
+  font-size: 2em;
+}
+.card-label {
+  color: var(--primary-color);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.25px;
+}
+.card-content-label {
+  font: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+.card-content-sublabel {
+  font: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+// p-chart {
+//   display: block;
+//   width: 500px;
+//   height: 500px;
+// }
+.chart-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;    /* Centraliza verticalmente */
+  height: 100%;           /* Garante que ocupe toda a altura do contêiner */
+  width: 100%;            /* Garante que ocupe toda a largura do contêiner */
+}
+
+.chart-container p-chart {
+  max-width: 600px; /* Tamanho máximo do gráfico */
+  max-height: 600px;
+}
+

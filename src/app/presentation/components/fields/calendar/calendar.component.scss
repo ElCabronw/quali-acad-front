@@ -1,0 +1,39 @@
+.input-container {
+  display: block;
+  input {
+    transition: border-width ease-in-out 0.08s;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 6px 30px 6px 12px;
+    font-size: 14px;
+    line-height: 1.5em;
+    border-radius: var(--border-radius);
+    height: 40px;
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: var(--disabled-background);
+      opacity: 1;
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      border-width: 2px;
+    }
+
+    &::placeholder {
+      color: var(--placeholder-color);
+      font-size: 12px;
+    }
+
+    &.ng-touched.ng-invalid {
+      border-color: var(--error-color) !important;
+    }
+  }
+
+  .input-error {
+    font-size: 0.7em;
+    color: var(--error-color);
+  }
+}

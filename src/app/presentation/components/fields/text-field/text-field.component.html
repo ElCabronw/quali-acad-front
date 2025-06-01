@@ -1,0 +1,104 @@
+<form class="input-container p-input-icon-right">
+  <i *ngIf="rightIcon" [class]="rightIcon"></i>
+  <i *ngIf="isPassword" class="show-password-icon {{ showPasswordIcon }}" (click)="toggleShowPassword()"></i>
+  <div class="p-inputgroup" *ngIf="!inputId">
+    <quali-acad-button
+      *ngIf="enableDocumentTypeChoice"
+      leftIcon="fas fa-exchange-alt"
+      type="success"
+      [label]="selectedDocumentType.name"
+      [disabled]="control.disabled"
+      [noShadow]="true"
+      (onClick)="handleDocumentTypeChange()"
+    ></quali-acad-button>
+
+    <span *ngIf="leftLabel" class="left-label">
+      {{ leftLabel }}
+    </span>
+
+    <input
+      *ngIf="!mask"
+      pInputText
+      type="text"
+      class="p-inputtext p-component"
+      [formControl]="control"
+      [attr.maxlength]="maxlength"
+      [placeholder]="placeholder"
+      [pValidateOnly]="validateOnly"
+      [pKeyFilter]="keyfilter"
+      [ngClass]="{ 'password-field': isPassword && !isPasswordVisible, 'text-centered': centered }"
+      (blur)="onBlur()"
+      (keydown.enter)="onEnterPress()"
+      (keydown.backspace)="onBackSpacePress()"
+      (click)="onFocus($event)"
+      [readonly]="readonly ? true : null"
+    />
+    <p-inputMask
+      *ngIf="mask"
+      type="text"
+      [inputId]="inputId || 'mask-field'"
+      [formControl]="control"
+      [mask]="mask"
+      [placeholder]="placeholder"
+      (onBlur)="onBlur()"
+      (keydown.enter)="onEnterPress()"
+      (keydown.backspace)="onBackSpacePress()"
+      [autoClear]="autoClear"
+      [unmask]="true"
+      [styleClass]="centered ? 'text-centered' : ''"
+      [slotChar]="slotChar"
+      (click)="onFocus($event)"
+    ></p-inputMask>
+  </div>
+  <div class="p-inputgroup" *ngIf="inputId">
+    <quali-acad-button
+      *ngIf="enableDocumentTypeChoice"
+      leftIcon="fas fa-exchange-alt"
+      type="success"
+      [label]="selectedDocumentType.name"
+      [disabled]="control.disabled"
+      [noShadow]="true"
+      (onClick)="handleDocumentTypeChange()"
+    ></quali-acad-button>
+
+    <span *ngIf="leftLabel" class="left-label">
+      {{ leftLabel }}
+    </span>
+
+    <input
+      *ngIf="!mask"
+      [id]="inputId"
+      class="p-inputtext p-component"
+      pInputText
+      type="text"
+      [formControl]="control"
+      [attr.maxlength]="maxlength"
+      [placeholder]="placeholder"
+      [pValidateOnly]="validateOnly"
+      [pKeyFilter]="keyfilter"
+      [ngClass]="{ 'password-field': isPassword && !isPasswordVisible, 'text-centered': centered }"
+      (blur)="onBlur()"
+      (keydown.enter)="onEnterPress()"
+      (keydown.backspace)="onBackSpacePress()"
+      (click)="onFocus($event)"
+      [readonly]="readonly ? true : null"
+    />
+    <p-inputMask
+      *ngIf="mask"
+      type="text"
+      [inputId]="inputId || 'mask-field'"
+      [formControl]="control"
+      [mask]="mask"
+      [placeholder]="placeholder"
+      (onBlur)="onBlur()"
+      (keydown.enter)="onEnterPress()"
+      (keydown.backspace)="onBackSpacePress()"
+      [autoClear]="autoClear"
+      [unmask]="true"
+      [styleClass]="centered ? 'text-centered' : ''"
+      [slotChar]="slotChar"
+      (click)="onFocus($event)"
+    ></p-inputMask>
+  </div>
+  <quali-acad-field-error-message *ngIf="!hiddenErrorMessage" [control]="control"></quali-acad-field-error-message>
+</form>

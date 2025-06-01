@@ -1,0 +1,11 @@
+<p-button
+  [styleClass]="styleClass"
+  [label]="label"
+  [disabled]="disabled"
+  [icon]="leftIcon || rightIcon"
+  [iconPos]="rightIcon ? 'right' : 'left'"
+  [style]="style"
+  (onClick)="onClick.emit($event)"
+  [ngClass]="{ round: round }"
+  [loading]="loading"
+></p-button>

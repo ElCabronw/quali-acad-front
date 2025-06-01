@@ -1,0 +1,167 @@
+<p-tabView>
+  <p-tabPanel header="Dados Gerais">
+    <div class="p-4 border-round mt-2">
+      <div class="formgrid grid">
+        <div class="col-12 field text-center">
+          <span class="text-lg  font-bold">{{ this.instituicaoData?.ies }}</span>
+        </div>
+        <div class="col-6 md:col-4 field">
+          <label class="block font-medium text-sm">Site</label>
+          <span class="block">{{ this.instituicaoData?.site }}</span>
+        </div>
+        <div class="col-6 md:col-4 field">
+          <label class="block font-medium text-sm">Telefone</label>
+          <span class="block">{{ this.instituicaoData?.telefone }}</span>
+        </div>
+        <div class="col-6 md:col-4 field">
+          <label class="block font-medium text-sm">Endereço</label>
+          <span class="block">{{ this.instituicaoData?.endereco }}</span>
+        </div>
+        <div class="col-6 md:col-4 field">
+          <label class="block font-medium text-sm">Cidade</label>
+          <span class="block">{{ this.instituicaoData?.cidade }}</span>
+        </div>
+        <div class="col-6 md:col-4 field">
+          <label class="block font-medium text-sm">Estado</label>
+          <span class="block">{{ this.instituicaoData?.estado }}</span>
+        </div>
+      </div>
+    </div>
+  </p-tabPanel>
+ <p-tabPanel header="Dashboard">
+  <p-accordion>
+    <p-accordionTab [selected]="true">
+      <ng-template pTemplate="header">
+        <div class="accordion-header-container">
+          <span>Cursos</span>
+        </div>
+
+      </ng-template>
+
+      <ng-template pTemplate="content">
+        <div class="table-responsive">
+          <p-table
+              #dt2
+              [value]="cursosByIes"
+              dataKey="id"
+              [rows]="10"
+              [rowsPerPageOptions]="[10, 25, 50]"
+              [paginator]="true"
+              [globalFilterFields]="['ies', 'curso', 'modalidade', 'verbete']"
+              class="custom-p-table"
+              [tableStyle]="{ 'min-width': '100%', 'max-height': '400px'}"
+          >
+            <!-- <ng-template pTemplate="caption">
+              <div class="flex justify-content-end">
+                <p-iconField iconPosition="left">
+                  <p-inputIcon>
+                    <i class="pi pi-search"></i>
+                  </p-inputIcon>
+                      <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Search keyword" />
+                </p-iconField>
+              </div>
+            </ng-template> -->
+            <ng-template pTemplate="header">
+              <tr>
+                <th>Curso</th>
+                <th>Modalidade</th>
+                <th>Avaliação</th>
+                <th>Ano Avaliação</th>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-item>
+              <tr>
+                <td class="text-nowrap">{{ item.curso }}</td>
+                <td class="text-nowrap">{{ item.modalidade }}</td>
+                <td class="text-nowrap"><p-rating [(ngModel)]="item.avaliacao" [readonly]="true" [cancel]="false" /></td>
+                <td class="text-nowrap">{{ item.anoAvaliacao }}</td>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="emptymessage">
+              <tr>
+                <td colspan="15" class="text-center">Nenhum dado encontrado.</td>
+              </tr>
+            </ng-template>
+          </p-table>
+        </div>
+      </ng-template>
+    </p-accordionTab>
+    <p-accordionTab>
+      <ng-template pTemplate="header">
+        <div class="accordion-header-container">
+          <span>Gráficos</span>
+        </div>
+      </ng-template>
+      <ng-template pTemplate="content">
+       <div class="grid">
+        <div class="col-12 md:col-6">
+          <p-card styleClass="custom-card">
+            <ng-template pTemplate="header">
+              <label class="card-label">Estrelados</label>
+            </ng-template>
+            <ng-template pTemplate="content">
+              <div class="chart-container">
+                <p-chart type="doughnut" [data]="estreladosChart" [options]="estreladosChartOptions" />
+              </div>
+
+            </ng-template>
+          </p-card>
+        </div>
+        <div class="col-12 md:col-6">
+          <p-card styleClass="custom-card">
+            <ng-template pTemplate="header">
+              <label class="card-label">Avaliaçoes</label>
+            </ng-template>
+            <ng-template pTemplate="content">
+              <div class="chart-container">
+                <p-chart type="bar" [data]="chartBarStarsData" [options]="chartBarOptions" />
+              </div>
+
+            </ng-template>
+          </p-card>
+        </div>
+       </div>
+      </ng-template>
+    </p-accordionTab>
+  </p-accordion>
+
+ </p-tabPanel>
+
+</p-tabView>
+
+<p-dialog
+    [(visible)]="showCoursesByStarModal"
+    [header]="'Detalhes'"
+    [modal]="true"
+    [closable]="true"
+    >
+    <div class="grid">
+
+
+      <div class="col-12">
+        <p-table [value]="coursesByStar" [paginator]="true" [rows]="10" [rowsPerPageOptions]="[5, 10, 20, 50, 100]">
+          <ng-template pTemplate="header">
+            <tr>
+
+              <th>Curso</th>
+              <th>Instituicao de Ensino</th>
+              <th>Avaliacao</th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-curso>
+            <tr>
+
+              <td>{{ curso.curso }}</td>
+              <td>{{ curso.ies }}</td>
+              <td>{{ curso.avaliacao }}</td>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="emptymessage">
+            <tr>
+              <td colspan="15" class="text-center">Nenhum dado encontrado.</td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </div>
+    </div>
+  </p-dialog>
