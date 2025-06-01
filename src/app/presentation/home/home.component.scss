@@ -1,0 +1,19 @@
+.accordion-header-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &.buttons {
+    justify-content: flex-end;
+  }
+
+  .group-header-actions {
+    display: flex;
+    align-items: center;
+
+    .group-header-action {
+      width: 40px;
+      margin: 5px;
+    }
+  }
+}
