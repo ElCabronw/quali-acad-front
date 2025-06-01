@@ -6053,7 +6053,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRRS",
-        "name": "Rio Grande do Sul"
+        "name": "RS"
       },
       "id": 1
     },
@@ -11309,7 +11309,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRRR",
-        "name": "Roraima"
+        "name": "RR"
       },
       "id": 2
     },
@@ -26715,7 +26715,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRPA",
-        "name": "Pará"
+        "name": "PA"
       },
       "id": 3
     },
@@ -28235,7 +28235,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRAC",
-        "name": "Acre"
+        "name": "AC"
       },
       "id": 4
     },
@@ -32797,7 +32797,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRAP",
-        "name": "Amapá"
+        "name": "AP"
       },
       "id": 5
     },
@@ -36733,7 +36733,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRMS",
-        "name": "Mato Grosso do Sul"
+        "name": "MS"
       },
       "id": 6
     },
@@ -41775,7 +41775,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRPR",
-        "name": "Paraná"
+        "name": "PR"
       },
       "id": 7
     },
@@ -47129,7 +47129,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRSC",
-        "name": "Santa Catarina"
+        "name": "SC"
       },
       "id": 8
     },
@@ -54517,7 +54517,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRAM",
-        "name": "Amazonas"
+        "name": "AM"
       },
       "id": 9
     },
@@ -59033,7 +59033,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRRO",
-        "name": "Rondônia"
+        "name": "RO"
       },
       "id": 10
     },
@@ -64881,7 +64881,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRMT",
-        "name": "Mato Grosso"
+        "name": "MT"
       },
       "id": 11
     },
@@ -75099,7 +75099,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRMA",
-        "name": "Maranhão"
+        "name": "MA"
       },
       "id": 12
     },
@@ -80111,7 +80111,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRPI",
-        "name": "Piauí"
+        "name": "PI"
       },
       "id": 13
     },
@@ -82343,7 +82343,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRCE",
-        "name": "Ceará"
+        "name": "CE"
       },
       "id": 14
     },
@@ -84333,7 +84333,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRRN",
-        "name": "Rio Grande do Norte"
+        "name": "RN"
       },
       "id": 15
     },
@@ -88081,7 +88081,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRPB",
-        "name": "Paraíba"
+        "name": "PB"
       },
       "id": 16
     },
@@ -93043,7 +93043,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRPE",
-        "name": "Pernambuco"
+        "name": "PE"
       },
       "id": 17
     },
@@ -94287,7 +94287,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRAL",
-        "name": "Alagoas"
+        "name": "AL"
       },
       "id": 18
     },
@@ -95767,7 +95767,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRSE",
-        "name": "Sergipe"
+        "name": "SE"
       },
       "id": 19
     },
@@ -104997,7 +104997,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRBA",
-        "name": "Bahia"
+        "name": "BA"
       },
       "id": 20
     },
@@ -107551,7 +107551,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRES",
-        "name": "Espírito Santo"
+        "name": "ES"
       },
       "id": 21
     },
@@ -124211,7 +124211,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRGO",
-        "name": "Goiás"
+        "name": "GO"
       },
       "id": 24
     },
@@ -124571,7 +124571,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRDF",
-        "name": "Distrito Federal"
+        "name": "DF"
       },
       "id": 25
     },
@@ -139991,7 +139991,7 @@
       "properties": {
         "source": "https://simplemaps.com",
         "id": "BRTO",
-        "name": "Tocantins"
+        "name": "TO"
       },
       "id": 27
     }

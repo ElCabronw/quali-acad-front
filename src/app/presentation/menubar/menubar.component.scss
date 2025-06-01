@@ -1,0 +1,48 @@
+/* 1. Garanta que o p-menubar seja o contêiner de referência para o posicionamento absoluto
+      e que ele ocupe a largura total para que a centralização seja correta. */
+:host ::ng-deep .p-menubar {
+  position: relative !important; /* Essencial para que 'position: absolute' funcione nos filhos diretos ou indiretos */
+  width: 100%;
+  /* O PrimeNG geralmente já aplica display: flex e align-items: center, o que é bom. */
+}
+
+/* 2. Estilize o wrapper do título para posicioná-lo absolutamente.
+      O nome da classe é apenas um exemplo. */
+.menubar-centered-title-wrapper {
+  position: absolute;
+  left: 50%; /* Posiciona a borda esquerda do elemento no meio do contêiner pai */
+  top: 50%; /* Posiciona a borda superior do elemento no meio vertical do contêiner pai */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Desloca o elemento para trás pela metade de sua própria largura e altura, centralizando-o efetivamente */
+
+  /* Estilos visuais para o título */
+  font-weight: bold;
+  font-size: 1.2rem; /* Ajuste conforme necessário */
+  color: var(
+    --text-color
+  ); /* Use a variável de cor do texto do seu tema PrimeNG ou uma cor específica */
+  white-space: nowrap; /* Impede que o título quebre em várias linhas */
+
+  /* Importante: Se o título puder sobrepor elementos clicáveis em 'start' ou 'end'
+     e não deve interferir nos cliques desses elementos, descomente a linha abaixo. */
+  /* pointer-events: none; */
+}
+
+/* 3. (Opcional, mas recomendado para evitar sobreposições visuais estranhas)
+      Garanta que as seções de início e fim tenham um z-index ou fundo para
+      não parecerem "atrás" do título se houver sobreposição.
+      Normalmente, o título absoluto não interfere no fluxo dos itens de start/end,
+      mas se o título tiver um fundo ou for muito largo, isso pode ser útil.
+*/
+:host ::ng-deep .p-menubar .p-menubar-start,
+:host ::ng-deep .p-menubar .p-menubar-end {
+  /* Se o seu menubar tiver um fundo sólido, isso pode não ser necessário.
+     Se as seções start/end precisarem "flutuar" acima do título caso haja sobreposição de fundo: */
+  /* z-index: 1; */ /* Dê um z-index menor para o título se precisar que start/end fiquem por cima */
+
+  /* Se o título tiver pointer-events: none, e você quiser que o título em si seja clicável,
+     você precisaria de um elemento filho dentro de .menubar-centered-title-wrapper
+     com pointer-events: auto; */
+}
